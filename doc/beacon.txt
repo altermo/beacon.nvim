@@ -1,0 +1,25 @@
+==============================================================================
+BEACON                                                                *beacon*
+
+Simple beacon with window local highlighting
+
+==============================================================================
+FUNCTIONS                                                   *beacon.functions*
+
+beacon.init.setup({conf})                                *beacon.init.setup()*
+  Start the plugin
+
+==============================================================================
+CONFIG                                                         *beacon.config*
+
+This is the config:
+• {color} the color of flash, can be color name or #RRGGBB (default: `"LightGoldenRodYellow"`)
+• {count} how many times to flash (default: `2`)
+• {interval} how long to flash (default: `150`)
+• {on_line_change} flash on line change:
+    • {enable} (default: `true`)
+    • {minimal_change} minimal amount of line change to trigger flash (default: `10`)
+• {on_window_change} flash on window change:
+    • {enable} (default: `true`)
+
+vim:ft=help:
